@@ -159,6 +159,10 @@ footer {
 .social :hover {
       color: #33ffff;   
  }
+ @media screen and (max-width: 700px) {
+    .row, .navbar {   
+      flex-direction: column;
+    }
 
 
   
